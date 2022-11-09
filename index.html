@@ -12,8 +12,35 @@
 </head>
 
 <body>
-  <!-- Seu código aqui -->
-  
+  <header class="header-trybe">
+    <h1>Trybe Hotel</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3q0v72AJA-p9V_oPst_65uEG9dr1WxKN-ZYp_5gE&s" alt="">
+  </header>
+  <section class="hotel-form">
+    <label for="entrada" class="form-label">Check-in
+    <input type="date" name="checkin" id="entrada" class="inputCheckin">
+    </label>
+    <label for="saida">Check-out
+    <input type="date" name="checkout" id="saida" class="inputCheckout">
+    </label>
+  </section>
+  <section class="hotel-form">
+    <p>Acomodação</p>
+    <label for="comum">Comum</label><input id="comum" class="bedroom" name="quartos" type="radio">
+    <label for="club">Club</label><input id="club" class="bedroom" name="quartos" type="radio">
+    <label for="luxo">Luxo</label><input id="luxo" class="bedroom" name="quartos" type="radio">
+  </section>
+  <select name="" id="">
+    <option class="nPessoas" value="1">1 pessoa</option>
+    <option class="nPessoas" value="2">2 pessoas</option>
+    <option class="nPessoas" value="3">3 pessoas</option>
+    <option class="nPessoas" value="4">4 pessoas</option>
+  </select>
+  </section>
+  <section class="hotel-form">
+    <textarea name="" placeholder="obs" id="" cols="30" rows="10"></textarea>
+  </section>
+  <button type="submit">Enviar</button>
 </body>
 
 </html>
